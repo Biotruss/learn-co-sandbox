@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "movie"
+#require_relative "../lib/Movie"
+
+Movie::CLI.new.call
